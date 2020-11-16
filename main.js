@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-const prefix = '='
+const prefix = 'a!'
 
 client.once('ready', () => {
     console.log('Bot is Online.')
