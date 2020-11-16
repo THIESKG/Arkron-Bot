@@ -16,7 +16,7 @@ client.on('message', message => {
     const command = args.shift().toLowerCase();
 
     if(command === 'help'){
-        message.channel.send('')
+        message.channel.send("List of commands:")
     } else if (command == '')
         message.channel.send('')
 });
