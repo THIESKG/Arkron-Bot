@@ -27,8 +27,8 @@ client.on('message', message => {
 
     if(command === 'help'){
         client.commands.get('help').execute(message, args);
-    } else if (command == ''){
-
+    } else if (command == 'lore'){
+        client.commands.get('lore').execute(message, args);
     }
 });
 
