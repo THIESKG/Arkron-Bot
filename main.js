@@ -31,6 +31,8 @@ client.on('message', message => {
         client.commands.get('lore').execute(message, args);
     } else if (command == 'info'){
         client.commands.get('info').execute(message, args);
+    } else if (command == 'ranks'){
+        client.commands.get('ranks').execute(message, args);
     }
 });
 
