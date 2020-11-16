@@ -29,6 +29,8 @@ client.on('message', message => {
         client.commands.get('help').execute(message, args);
     } else if (command == 'lore'){
         client.commands.get('lore').execute(message, args);
+    } else if (command == 'info'){
+        client.commands.get('info').execute(message, args);
     }
 });
 
