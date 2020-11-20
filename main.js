@@ -19,7 +19,7 @@ client.once('ready', () => {
     console.log('Bot is Online.')
 });
 
-Client.on('guildMemberAdd', member =>{
+client.on('guildMemberAdd', member =>{
 
     const channel = member.guild.channels.find(channel => channel.name === "hello-and-bye-bye")
     if(!channel) return;
